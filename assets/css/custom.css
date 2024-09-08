@@ -1,0 +1,233 @@
+h2{
+    color: #1e293b;
+    font-size: 48px;    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+h3{
+    color: #1e293b;
+    font-size: 24px;    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+}
+p{
+    color: #67768e;
+    font-size: 18px;
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+}
+section {
+    padding: 100px 80px;
+}
+.header{
+    background:linear-gradient(135deg,rgb(0,133,171) 0%,rgb(11,63,78) 100%); 
+}
+.navbar-expand-xl {
+    padding: 20px 0px;
+    height: 110px;
+}
+.navbar-brand img {
+    width: 154px;
+}
+.offcanvas-body ul{
+    margin: 0;
+    padding: 0;
+}
+.offcanvas-body li {
+    color: #f2f5f7c2;
+    font-size: 18px;
+    font-family: Inter;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.custom_btn{
+    background: #0b3f4e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 13px 15px;
+    line-height: 12px;
+}
+.custom_btn:hover{
+    background: #0085ab;
+}
+.custom_btn:active {
+    border-color: #f9f6fe !important;
+    color: #f9f6fe !important;
+}
+.custom_btn a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.header_slide h1 {
+    font-size: 64px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    line-height: 90px;
+}
+.header_slide p {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.custom_btn2 {
+    font-size: 20px;
+    color: #1e293b;
+    padding: 14px 35px;
+    background: #f9f6fe;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.custom_btn2:hover {
+    background: #f9f6fe;
+}
+.custom_btn2:active {
+    border-color: #f9f6fe !important;
+    color: #f9f6fe !important;
+}
+.slider_img img {
+    width: 600px;
+}
+.img_500{
+    width: 500px;
+}
+.img_600{
+    width: 600px;
+}
+.about_author{
+    background: linear-gradient(135deg, rgb(11, 63, 78) 0%, rgb(0, 133, 171) 100%);
+    padding: 30px 30px 30px 5px;
+} 
+.about_author h2{
+    color: #fff;
+}
+.about_author p{
+    color: #fff;
+}
+.author_img img {
+    width: 100%;
+    padding-right: 6%;
+}
+.sm_icon {
+    width: 48px;
+    height: 48px;
+    margin: 8px 20px;
+}
+.why_choose h2 {
+    padding: 40px 20px 50px;
+    font-weight: 600;
+}
+.why_choose h3 {
+    padding: 8px 20px; 
+}
+.why_choose p {
+    padding: 0px 20px; 
+    margin: 0;
+
+}
+.cta {
+    background: linear-gradient(135deg, rgb(11, 63, 78) 0%, rgb(0, 133, 171) 100%);
+    padding: 80px 10px 80px 10px;
+    text-align: center;
+}
+.cta h2{
+    font-size: 20px;
+    color: #fff;
+}
+.cta .custom_btn2 {
+    border-radius: 50px;
+    margin:40px 0px 0px;
+}
+.footer{
+    text-align: center;
+}
+.footer_logo{
+    width: 280px;
+}
+.footer li a {
+    color: #060097;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.footer li a:hover {
+    color: #c10fff;
+}
+.footer li {
+    list-style-type: none;
+    text-align: center;
+}
+.footer h4{
+    font-size: 20px;
+    color: #1e293b;
+}
+.footer .contact p{
+    color: #67768e;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.footer .contact a{
+    text-decoration: none;
+    color: #060097;
+    font-weight: 400;
+}
+.copyright{
+    background-color: #eeeeee;
+    border: 1px solid #eaeaea;
+    padding: 20px 110px 20px 110px;
+    text-align: center;
+}
+.copyright a{
+    color:#060097;
+    text-decoration: none;
+}
+.copyright a:hover{
+    color: #c10fff;
+}
+/* Hide extra links on desktop */
+.extra-links {
+    display: none !important;
+}
+/*--------------------------------------------------------------
+# Scroll Top Button
+--------------------------------------------------------------*/
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background:  rgb(12, 153, 193);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .scroll-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .scroll-top:hover {
+    background: rgb(4, 182, 231);
+    color: #fff;
+  }
+  
+  .scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
